@@ -15,7 +15,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       //! App is Working ,But when trying to Excecute with the AppRouter, gets Errors ,need to fix.!//
-      {/* /////////   Come And Fix App Router    ,////// */}
       <AppRouter/>
       {/* <TheProvider>
         <PantsProvider>
