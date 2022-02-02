@@ -15,8 +15,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       //! App is Working ,But when trying to Excecute with the AppRouter, gets Errors ,need to fix.!//
-      <AppRouter/>
-      {/* <TheProvider>
+     //! {/* <AppRouter/> */}//!
+      <TheProvider>
         <PantsProvider>
           <ShirtsProvider>
             <Shoes />
@@ -24,7 +24,7 @@ function App() {
             <Shirts />
           </ShirtsProvider>
         </PantsProvider>
-      </TheProvider> */}
+      </TheProvider>
     </div>
   );
 }
